@@ -19,20 +19,20 @@ class SME_PT_Panel(Panel):
         if active_object is not None:
             if active_object.sme.object_type == 'system':
                 box = layout.box()
-                box.label(text="Object", icon='OBJECT_DATA')
+                box.label(text="System", icon='OBJECT_DATA')
 
                 box.prop(active_object, 'name')
                 box.prop(active_object.sme, 'sme_id')
 
             elif active_object.sme.object_type == 'nebula':
                 box = layout.box()
-                box.label(text="Object", icon='OBJECT_DATA')
+                box.label(text="Nebula", icon='OBJECT_DATA')
 
                 box.prop(active_object, 'name')
 
             elif active_object.sme.object_type == 'add_hyperlane':
                 box = layout.box()
-                box.label(text="Object", icon='OBJECT_DATA')
+                box.label(text="Hyperlane", icon='OBJECT_DATA')
 
                 box.label(text=active_object.name)
                 box.prop(active_object.modifiers["Hyperlane"], '["Socket_4"]', text="From")
