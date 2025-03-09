@@ -1,0 +1,4 @@
+# Ignore these file types
+*__pycache__/
+
+*.blend1
