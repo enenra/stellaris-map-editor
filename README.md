@@ -1,6 +1,9 @@
 # Stellaris Map Editor
 This is a small addon for Blender 4.3+ for editing Stellaris preset maps.
 
+![image](https://github.com/user-attachments/assets/8cd7a2dd-06b7-42bf-8d2d-c9381309303f)
+Example screenshot from within Blender with the Star Wars: New Dawn small map imported.
+
 ## Functionality
 * **Import Map Information** from a Stellaris map file into Blender.
   * Import System name, ID, oosition
