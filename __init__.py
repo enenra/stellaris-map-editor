@@ -1,16 +1,14 @@
 bl_info = {
     "name": "Stellaris Map Editor",
-    "description": "",
+    "description": "This is a small addon for Blender 4.3+ for editing Stellaris preset maps.",
     "author": "enenra",
-    "version": (0, 1, 0),
-    "dev_version": 1,
-    "dev_tag": "alpha",
+    "version": (1, 0, 0),
     "blender": (4, 3, 0),
     "location": "Add-ons",
     "warning": "",
     "wiki_url": "",
     "tracker_url": "",
-    "git_url": "",
+    "git_url": "https://github.com/enenra/stellaris-map-editor",
     "support": "COMMUNITY",
     "category": "Utility"
 }
