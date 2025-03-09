@@ -1,0 +1,2 @@
+# stellaris-map-editor
+ 
